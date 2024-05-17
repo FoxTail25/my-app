@@ -1,4 +1,4 @@
-import { ProductsList } from '../parts/student/studentsList';
+import { StudentsList } from '../parts/student/studentsList';
 
 export default function Root() {
 
@@ -14,7 +14,7 @@ export default function Root() {
 		<div id="main_page">
 			<h2>This is my first Redux app!</h2>
 			<hr />
-			<ProductsList />
+			<StudentsList />
 		</div>
 	</div>
 }

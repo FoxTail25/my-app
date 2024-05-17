@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 
-export const ProductsList = () => {
+export const StudentsList = () => {
 	const students = useSelector((state) => state.students)
 
 	const dispStudents = students.map((student) => (
